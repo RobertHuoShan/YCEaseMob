@@ -1,0 +1,27 @@
+//
+//  PrefixHeader.pch
+//  YCEaseMob
+//
+//  Created by 袁灿 on 15/10/29.
+//  Copyright © 2015年 yuancan. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define APPKEY      @"1101#testrongyun"     //环信APPKEY
+#define APNSCert    @"TestHuanXin"          //环信推送证书名称
+
+//引入我自己框架相关的头文件
+#import "YCPublicMoudle.h"
+
+
+//与环信SDK有关的头文件
+#import "EaseMob.h"
+#import "EMError.h"
+
+#import "UIViewController+HUD.h"
+#import "ChatDemoUIDefine.h"
+#import "EMAlertView.h"
+
+#endif
